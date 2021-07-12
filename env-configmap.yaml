@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: bkotestenv
+  AWS_PROFILE: default
+  AWS_REGION: us-west-1
+  POSTGRES_USERNAME: bko
+  POSTGRES_PASSWORD: bkko6269
+  POSTGRES_HOST: bkkomonolith.c2tfziympf0g.us-west-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  JWT_SECRET: hello
+  URL: a8dd5e420789d481984a036e409536b4-140354012.us-west-1.elb.amazonaws.com
+metadata:
+  name: env-config
